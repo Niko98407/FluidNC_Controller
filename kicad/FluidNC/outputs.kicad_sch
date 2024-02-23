@@ -4105,7 +4105,7 @@
   (symbol (lib_id "Device:C") (at 260.35 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0016ed16-5c17-4284-84a1-5cfa445c6af0)
-    (property "Reference" "C5" (at 264.16 124.46 0)
+    (property "Reference" "C22" (at 264.16 124.46 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 264.16 127 0)
@@ -4121,9 +4121,6 @@
     (pin "2" (uuid b6eff670-754e-4704-a0ad-4f384abcd1c3))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "C5") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "C22") (unit 1)
         )
@@ -4164,9 +4161,6 @@
     (pin "9" (uuid 0fb641d8-1134-45aa-89e6-acd21458c4e2))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "U6") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "U6") (unit 1)
         )
@@ -4177,7 +4171,7 @@
   (symbol (lib_id "power:GND1") (at 125.73 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0680f6b9-95e2-4c92-8fc4-11dafb7e0e92)
-    (property "Reference" "#PWR018" (at 125.73 161.29 0)
+    (property "Reference" "#PWR0139" (at 125.73 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 125.73 160.02 0)
@@ -4192,9 +4186,6 @@
     (pin "1" (uuid 8c4480ef-4823-4253-b7ad-481b18c2562a))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR018") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR0139") (unit 1)
         )
@@ -4205,7 +4196,7 @@
   (symbol (lib_id "power:+3.3V") (at 144.78 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08f30241-1910-40e4-9aba-1de667b82859)
-    (property "Reference" "#PWR014" (at 144.78 24.13 0)
+    (property "Reference" "#PWR022" (at 144.78 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (at 144.78 15.24 0)
@@ -4220,9 +4211,6 @@
     (pin "1" (uuid 36970a5e-290d-4364-8e0d-dc8839b72165))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR014") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR022") (unit 1)
         )
@@ -4233,7 +4221,7 @@
   (symbol (lib_id "power:+5V") (at 140.97 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09cc217f-2682-4cd5-9a39-dfd19e1b31f7)
-    (property "Reference" "#PWR09" (at 140.97 214.63 0)
+    (property "Reference" "#PWR0146" (at 140.97 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 140.97 207.01 0)
@@ -4248,9 +4236,6 @@
     (pin "1" (uuid 6f732ce2-0198-4930-8fe6-3f6456749801))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR09") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR0146") (unit 1)
         )
@@ -4293,7 +4278,7 @@
   (symbol (lib_id "Device:C") (at 187.96 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 11458278-9f3d-4665-b76a-38ce39ebc7c6)
-    (property "Reference" "C5" (at 191.77 26.67 0)
+    (property "Reference" "C15" (at 191.77 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 191.77 29.21 0)
@@ -4309,9 +4294,6 @@
     (pin "2" (uuid ba81b065-e10f-44f1-b501-8e3f2fa14a1a))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "C5") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "C15") (unit 1)
         )
@@ -4322,7 +4304,7 @@
   (symbol (lib_id "Device:LED") (at 132.08 218.44 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1be6d35e-7284-45ce-a23a-fb9095812924)
-    (property "Reference" "D3" (at 135.89 218.44 90)
+    (property "Reference" "D8" (at 135.89 218.44 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 135.89 215.9 90)
@@ -4338,9 +4320,6 @@
     (pin "2" (uuid c37eb897-5391-406b-8508-04be8a00ca9f))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "D3") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "D8") (unit 1)
         )
@@ -4351,7 +4330,7 @@
   (symbol (lib_id "power:+5V") (at 30.48 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e0c0da4-41b9-40e9-a0a9-e4b6c98fa13e)
-    (property "Reference" "#PWR09" (at 30.48 199.39 0)
+    (property "Reference" "#PWR0151" (at 30.48 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 30.48 191.77 0)
@@ -4366,9 +4345,6 @@
     (pin "1" (uuid 609eb806-db3b-49d3-94db-79ae994106e0))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR09") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR0151") (unit 1)
         )
@@ -4379,7 +4355,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Pin") (at 121.92 167.64 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e24fa23-f950-4fb9-a155-21f4c5254faf)
-    (property "Reference" "J3" (at 121.92 162.56 90)
+    (property "Reference" "J19" (at 121.92 162.56 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03_Pin" (at 121.92 165.1 90)
@@ -4396,9 +4372,6 @@
     (pin "3" (uuid c560e8d7-11c4-4b84-8886-1d18785cfbc8))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/404153b1-1b04-41c5-87e8-47c73c23623a"
-          (reference "J3") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "J19") (unit 1)
         )
@@ -4441,7 +4414,7 @@
   (symbol (lib_id "Device:R") (at 256.54 38.1 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 21563198-24be-44e0-bc15-a39c136c2508)
-    (property "Reference" "R3" (at 256.54 33.02 90)
+    (property "Reference" "R15" (at 256.54 33.02 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 256.54 35.56 90)
@@ -4457,9 +4430,6 @@
     (pin "2" (uuid e4d324b7-13d7-4811-a998-e9d2b325f5c0))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "R3") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "R15") (unit 1)
         )
@@ -4498,7 +4468,7 @@
   (symbol (lib_id "Device:C") (at 43.18 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2da8c0ed-6824-4f2c-a574-7946095bb7b5)
-    (property "Reference" "C5" (at 46.99 157.48 0)
+    (property "Reference" "C20" (at 46.99 157.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 46.99 160.02 0)
@@ -4514,9 +4484,6 @@
     (pin "2" (uuid 576b3184-963c-4a14-b45c-1b065338909a))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "C5") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "C20") (unit 1)
         )
@@ -4527,7 +4494,7 @@
   (symbol (lib_id "Device:R") (at 132.08 228.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 319f6072-5070-4c08-81a8-1e11a14793f7)
-    (property "Reference" "R9" (at 134.62 227.33 0)
+    (property "Reference" "R70" (at 134.62 227.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 134.62 229.87 0)
@@ -4543,9 +4510,6 @@
     (pin "2" (uuid b76e0c47-9e15-469b-9659-d8af92948d0e))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "R9") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "R70") (unit 1)
         )
@@ -4556,7 +4520,7 @@
   (symbol (lib_id "power:GND1") (at 210.82 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 36ed8891-fa8d-4aed-bb03-f0f13e0f3fad)
-    (property "Reference" "#PWR018" (at 210.82 167.64 0)
+    (property "Reference" "#PWR0143" (at 210.82 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 210.82 166.37 0)
@@ -4571,9 +4535,6 @@
     (pin "1" (uuid a7e373d6-d918-42c4-af77-da21d3a63aaa))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR018") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR0143") (unit 1)
         )
@@ -4612,7 +4573,7 @@
   (symbol (lib_id "power:+24V") (at 128.27 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 448e722a-6ab6-4620-a664-745d21f04c10)
-    (property "Reference" "#PWR017" (at 128.27 176.53 0)
+    (property "Reference" "#PWR0142" (at 128.27 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 128.27 167.64 0)
@@ -4627,9 +4588,6 @@
     (pin "1" (uuid 0e45dc22-68c5-43be-828d-78eacf583dec))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR0142") (unit 1)
         )
@@ -4640,7 +4598,7 @@
   (symbol (lib_id "power:+24V") (at 163.83 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45b7d912-1de7-48ff-bae4-9594cd32d43c)
-    (property "Reference" "#PWR017" (at 163.83 83.82 0)
+    (property "Reference" "#PWR019" (at 163.83 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 163.83 74.93 0)
@@ -4655,9 +4613,6 @@
     (pin "1" (uuid cab2c039-36fe-4148-8758-a9626e2f2c08))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR019") (unit 1)
         )
@@ -4668,7 +4623,7 @@
   (symbol (lib_id "Device:C") (at 120.65 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 47ebaa27-96d2-4b0a-8532-f6437810e914)
-    (property "Reference" "C5" (at 124.46 26.67 0)
+    (property "Reference" "C14" (at 124.46 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 124.46 29.21 0)
@@ -4684,9 +4639,6 @@
     (pin "2" (uuid f304c958-e7ef-4932-9976-f8368fd90317))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "C5") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "C14") (unit 1)
         )
@@ -4697,7 +4649,7 @@
   (symbol (lib_id "Device:R") (at 231.14 25.4 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e050956-349c-4a01-8845-65c50d10f14d)
-    (property "Reference" "R3" (at 231.14 20.32 90)
+    (property "Reference" "R13" (at 231.14 20.32 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 231.14 22.86 90)
@@ -4713,9 +4665,6 @@
     (pin "2" (uuid 4c2962e8-4cd2-4c3d-a936-53c92259f3f6))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "R3") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "R13") (unit 1)
         )
@@ -4726,7 +4675,7 @@
   (symbol (lib_id "Device:R") (at 245.11 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 509acc51-052b-4ff6-8702-85ee1e2341ef)
-    (property "Reference" "R9" (at 247.65 41.91 0)
+    (property "Reference" "R16" (at 247.65 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 247.65 44.45 0)
@@ -4742,9 +4691,6 @@
     (pin "2" (uuid 3f0628eb-80bb-4890-86c0-db9ec0358591))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "R9") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "R16") (unit 1)
         )
@@ -4781,7 +4727,7 @@
   (symbol (lib_id "power:GND1") (at 166.37 265.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 565141a8-e725-4f25-baf0-4155f69c64e9)
-    (property "Reference" "#PWR018" (at 166.37 271.78 0)
+    (property "Reference" "#PWR0149" (at 166.37 271.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 166.37 270.51 0)
@@ -4796,9 +4742,6 @@
     (pin "1" (uuid 4af957b4-0a5a-46e0-84e0-5f4cd515a1dd))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR018") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR0149") (unit 1)
         )
@@ -4809,7 +4752,7 @@
   (symbol (lib_id "Device:C") (at 22.86 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 57618f59-7385-4de5-9735-59f0fc8e428a)
-    (property "Reference" "C5" (at 26.67 43.18 0)
+    (property "Reference" "C17" (at 26.67 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 26.67 45.72 0)
@@ -4825,9 +4768,6 @@
     (pin "2" (uuid 69cfaaed-b5bd-4bcb-a15b-2eb9769068fc))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "C5") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "C17") (unit 1)
         )
@@ -4838,7 +4778,7 @@
   (symbol (lib_id "power:+5V") (at 138.43 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 58cf0c24-f9d3-4b53-bda5-9f88f2342039)
-    (property "Reference" "#PWR09" (at 138.43 76.2 0)
+    (property "Reference" "#PWR011" (at 138.43 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 138.43 68.58 0)
@@ -4853,9 +4793,6 @@
     (pin "1" (uuid cf3c14ed-bb92-4a6a-8390-f46828781758))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR09") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR011") (unit 1)
         )
@@ -4896,9 +4833,6 @@
     (pin "9" (uuid d4cd8027-a712-47e5-96a1-f5714daede22))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "U5") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "U5") (unit 1)
         )
@@ -4924,9 +4858,6 @@
     (pin "1" (uuid a3a03404-3730-4300-9db8-3c24a8218f80))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR010") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR010") (unit 1)
         )
@@ -4937,7 +4868,7 @@
   (symbol (lib_id "Device:C") (at 119.38 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 622cf124-08dd-4041-ae7c-1f6155f6ecc5)
-    (property "Reference" "C5" (at 123.19 83.82 0)
+    (property "Reference" "C21" (at 123.19 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 123.19 86.36 0)
@@ -4953,9 +4884,6 @@
     (pin "2" (uuid 67aad1f1-5665-43d6-9b36-b747c9b0eb9a))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "C5") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "C21") (unit 1)
         )
@@ -4966,7 +4894,7 @@
   (symbol (lib_id "power:+24V") (at 248.92 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62ffa9b1-6461-418a-af68-2e2a5a97c688)
-    (property "Reference" "#PWR017" (at 248.92 119.38 0)
+    (property "Reference" "#PWR027" (at 248.92 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 248.92 110.49 0)
@@ -4981,9 +4909,6 @@
     (pin "1" (uuid 6a384261-c9f9-456b-82f5-b195adb6e801))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR027") (unit 1)
         )
@@ -4994,7 +4919,7 @@
   (symbol (lib_id "power:+24V") (at 166.37 218.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6525ba3f-d2d4-4b2d-adb5-523174fffd2e)
-    (property "Reference" "#PWR017" (at 166.37 222.25 0)
+    (property "Reference" "#PWR0147" (at 166.37 222.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 166.37 213.36 0)
@@ -5009,9 +4934,6 @@
     (pin "1" (uuid bef96a5d-2263-4d2d-9985-eacd7cb30000))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR0147") (unit 1)
         )
@@ -5022,7 +4944,7 @@
   (symbol (lib_id "power:GND") (at 146.05 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b966198-f9e9-4b92-8e14-97c643b2f3fc)
-    (property "Reference" "#PWR010" (at 146.05 63.5 0)
+    (property "Reference" "#PWR024" (at 146.05 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 62.23 0)
@@ -5037,9 +4959,6 @@
     (pin "1" (uuid 78deab41-0a20-4459-ac73-a3fb974c1fa8))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR010") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR024") (unit 1)
         )
@@ -5050,7 +4969,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Pin") (at 120.65 135.89 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c5c9570-ab3a-40ca-9358-72e35a37ceba)
-    (property "Reference" "J3" (at 120.65 130.81 90)
+    (property "Reference" "J18" (at 120.65 130.81 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03_Pin" (at 120.65 133.35 90)
@@ -5067,9 +4986,6 @@
     (pin "3" (uuid 8b97ebf4-ab72-4f31-bc79-39f49c155a38))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/404153b1-1b04-41c5-87e8-47c73c23623a"
-          (reference "J3") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "J18") (unit 1)
         )
@@ -5176,7 +5092,7 @@
   (symbol (lib_id "Device:R") (at 245.11 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8a51091c-1134-4afe-a2da-9c2401be914c)
-    (property "Reference" "R9" (at 247.65 77.47 0)
+    (property "Reference" "R19" (at 247.65 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 247.65 80.01 0)
@@ -5192,9 +5108,6 @@
     (pin "2" (uuid def5479b-d882-4d43-8b74-ca23722653f1))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "R9") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "R19") (unit 1)
         )
@@ -5237,7 +5150,7 @@
   (symbol (lib_id "Device:C") (at 236.22 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c9f1279-49e3-4227-8e86-1c402c07858a)
-    (property "Reference" "C5" (at 240.03 71.12 0)
+    (property "Reference" "C24" (at 240.03 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 240.03 73.66 0)
@@ -5253,9 +5166,6 @@
     (pin "2" (uuid bd0fe266-22cc-4a67-bd7d-49a6b6c4a1dd))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "C5") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "C24") (unit 1)
         )
@@ -5266,7 +5176,7 @@
   (symbol (lib_id "power:GND1") (at 236.22 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8cdf68dc-3a32-4fed-a811-b6b8ad8baeaa)
-    (property "Reference" "#PWR018" (at 236.22 91.44 0)
+    (property "Reference" "#PWR025" (at 236.22 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 236.22 90.17 0)
@@ -5281,9 +5191,6 @@
     (pin "1" (uuid 7564b3b6-7619-4031-b894-af814bd6e7e4))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR018") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR025") (unit 1)
         )
@@ -5294,7 +5201,7 @@
   (symbol (lib_id "power:+5VP") (at 210.82 116.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f2c2fc0-7e27-45d6-a5cb-5a808e01a11b)
-    (property "Reference" "#PWR016" (at 210.82 120.65 0)
+    (property "Reference" "#PWR0145" (at 210.82 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5VP" (at 210.82 111.76 0)
@@ -5309,9 +5216,6 @@
     (pin "1" (uuid 95f8bfd8-b3ff-4d55-9b63-1f165880c47c))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR016") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR0145") (unit 1)
         )
@@ -5322,7 +5226,7 @@
   (symbol (lib_id "Device:R") (at 226.06 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f34b6b5-d200-4234-bdf6-5cfeabf0d873)
-    (property "Reference" "R9" (at 228.6 71.12 0)
+    (property "Reference" "R17" (at 228.6 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 228.6 73.66 0)
@@ -5338,9 +5242,6 @@
     (pin "2" (uuid 1e96487b-fa8f-480a-88d1-cd37fb074fd3))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "R9") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "R17") (unit 1)
         )
@@ -5351,7 +5252,7 @@
   (symbol (lib_id "Device:LED") (at 129.54 80.01 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8fcc7c60-96aa-460d-b35e-5d14adc83e76)
-    (property "Reference" "D3" (at 133.35 80.01 90)
+    (property "Reference" "D4" (at 133.35 80.01 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LED" (at 133.35 77.47 90)
@@ -5367,9 +5268,6 @@
     (pin "2" (uuid 68c4100b-fd64-403b-ba43-f0372ca67294))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "D3") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "D4") (unit 1)
         )
@@ -5410,9 +5308,6 @@
     (pin "9" (uuid ce89969c-7963-4d1b-98c3-b39b1f2e08ff))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "U4") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "U4") (unit 1)
         )
@@ -5423,7 +5318,7 @@
   (symbol (lib_id "Device:R") (at 256.54 73.66 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 92ae39b2-3adc-4e81-b806-8b37fced4595)
-    (property "Reference" "R3" (at 256.54 68.58 90)
+    (property "Reference" "R21" (at 256.54 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 256.54 71.12 90)
@@ -5439,9 +5334,6 @@
     (pin "2" (uuid 796ddc9a-07d2-4e0e-8243-f7d52b3abb2b))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "R3") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "R21") (unit 1)
         )
@@ -5452,7 +5344,7 @@
   (symbol (lib_id "power:GND1") (at 205.74 274.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 969c87d1-39e5-4763-99aa-dbefc76d87bd)
-    (property "Reference" "#PWR018" (at 205.74 280.67 0)
+    (property "Reference" "#PWR0150" (at 205.74 280.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 205.74 279.4 0)
@@ -5467,9 +5359,6 @@
     (pin "1" (uuid d68f2657-d172-40ab-8b63-567613d9ab9a))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR018") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR0150") (unit 1)
         )
@@ -5480,7 +5369,7 @@
   (symbol (lib_id "power:+24V") (at 210.82 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9937cfcd-5860-4bb3-bdf0-81ae473496b9)
-    (property "Reference" "#PWR017" (at 210.82 95.25 0)
+    (property "Reference" "#PWR0144" (at 210.82 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 210.82 86.36 0)
@@ -5495,9 +5384,6 @@
     (pin "1" (uuid d6965b03-1de8-4fe9-987b-82aad0321176))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR0144") (unit 1)
         )
@@ -5508,7 +5394,7 @@
   (symbol (lib_id "Device:R") (at 226.06 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a15335cf-e6ac-4cb8-851a-446e9c9e5ac2)
-    (property "Reference" "R9" (at 228.6 35.56 0)
+    (property "Reference" "R14" (at 228.6 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 228.6 38.1 0)
@@ -5524,9 +5410,6 @@
     (pin "2" (uuid 163d05ae-70e5-438a-8f1f-644cb7dc609b))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "R9") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "R14") (unit 1)
         )
@@ -5567,7 +5450,7 @@
   (symbol (lib_id "Device:R") (at 231.14 60.96 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a6b68f5d-11ac-4609-a964-7f02866f0a9a)
-    (property "Reference" "R3" (at 231.14 55.88 90)
+    (property "Reference" "R18" (at 231.14 55.88 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 231.14 58.42 90)
@@ -5583,9 +5466,6 @@
     (pin "2" (uuid bb155b3e-267b-4a56-98f5-c49508b14ad0))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "R3") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "R18") (unit 1)
         )
@@ -5658,9 +5538,6 @@
     (pin "9" (uuid b8430f54-001e-4edc-811c-eb74a8ab88f7))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "U3") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "U3") (unit 1)
         )
@@ -5671,7 +5548,7 @@
   (symbol (lib_id "power:GND1") (at 173.99 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5afcc87-50ee-44dc-aa4b-4fa29bddee95)
-    (property "Reference" "#PWR018" (at 173.99 63.5 0)
+    (property "Reference" "#PWR023" (at 173.99 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 173.99 62.23 0)
@@ -5686,9 +5563,6 @@
     (pin "1" (uuid eb4d22a8-e4e4-4f03-a32c-a65db25c73de))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR018") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR023") (unit 1)
         )
@@ -5699,7 +5573,7 @@
   (symbol (lib_id "Device:C") (at 236.22 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b761f33d-fa1f-41aa-8204-9ce3977983c5)
-    (property "Reference" "C5" (at 240.03 35.56 0)
+    (property "Reference" "C23" (at 240.03 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 240.03 38.1 0)
@@ -5715,9 +5589,6 @@
     (pin "2" (uuid ee48bfa5-f4a9-4d2e-892d-296d65a28116))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "C5") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "C23") (unit 1)
         )
@@ -5728,7 +5599,7 @@
   (symbol (lib_id "power:GND1") (at 127 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8aa9164-f07e-4f97-8d9b-429f079806fd)
-    (property "Reference" "#PWR018" (at 127 193.04 0)
+    (property "Reference" "#PWR0141" (at 127 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 127 191.77 0)
@@ -5743,9 +5614,6 @@
     (pin "1" (uuid db7ce064-0021-492b-895f-98e2d4fb7561))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR018") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR0141") (unit 1)
         )
@@ -5756,7 +5624,7 @@
   (symbol (lib_id "power:GND") (at 140.97 265.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b903e912-482b-4de2-bced-07b15e1e765c)
-    (property "Reference" "#PWR010" (at 140.97 271.78 0)
+    (property "Reference" "#PWR0148" (at 140.97 271.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.97 270.51 0)
@@ -5771,9 +5639,6 @@
     (pin "1" (uuid e51db995-9de5-403f-8758-aa4f14699296))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR010") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR0148") (unit 1)
         )
@@ -5816,7 +5681,7 @@
   (symbol (lib_id "Device:R") (at 129.54 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bce0ba2b-6f39-4db1-b848-52be0e12ea02)
-    (property "Reference" "R9" (at 132.08 88.9 0)
+    (property "Reference" "R11" (at 132.08 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 132.08 91.44 0)
@@ -5832,9 +5697,6 @@
     (pin "2" (uuid 6f65ebc4-7d42-4e7c-a003-fd71113dfb80))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "R9") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "R11") (unit 1)
         )
@@ -5845,7 +5707,7 @@
   (symbol (lib_id "Device:C") (at 194.31 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bedc3da7-e93f-45ae-a76e-d47a1308d976)
-    (property "Reference" "C5" (at 198.12 49.53 0)
+    (property "Reference" "C16" (at 198.12 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 198.12 52.07 0)
@@ -5861,9 +5723,6 @@
     (pin "2" (uuid fd9c74f5-9fa9-4d75-a11a-8614ac29d00e))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "C5") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "C16") (unit 1)
         )
@@ -5874,7 +5733,7 @@
   (symbol (lib_id "power:GND") (at 138.43 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c02e314f-16be-4316-a502-ac299ce5121b)
-    (property "Reference" "#PWR010" (at 138.43 135.89 0)
+    (property "Reference" "#PWR012" (at 138.43 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138.43 134.62 0)
@@ -5889,9 +5748,6 @@
     (pin "1" (uuid 090e3912-c320-42fe-a7c7-953023e11252))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR010") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR012") (unit 1)
         )
@@ -5934,7 +5790,7 @@
   (symbol (lib_id "power:+24V") (at 127 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c82128f6-26e1-486f-8f5c-f51b1e37e548)
-    (property "Reference" "#PWR017" (at 127 144.78 0)
+    (property "Reference" "#PWR0137" (at 127 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 127 135.89 0)
@@ -5949,9 +5805,6 @@
     (pin "1" (uuid 74cf073a-b0b5-4536-9f20-c36fb87d5f01))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR017") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR0137") (unit 1)
         )
@@ -5962,7 +5815,7 @@
   (symbol (lib_id "power:GND1") (at 236.22 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8f2515a-1f25-4c88-b625-3110dc937fdc)
-    (property "Reference" "#PWR018" (at 236.22 55.88 0)
+    (property "Reference" "#PWR026" (at 236.22 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 236.22 54.61 0)
@@ -5977,9 +5830,6 @@
     (pin "1" (uuid 325f1633-d196-417f-b9f3-0465b5c8e03e))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR018") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR026") (unit 1)
         )
@@ -5990,7 +5840,7 @@
   (symbol (lib_id "Device:C") (at 121.92 223.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d038f66a-7207-46bf-9360-e2703c1cfe40)
-    (property "Reference" "C5" (at 125.73 222.25 0)
+    (property "Reference" "C72" (at 125.73 222.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 125.73 224.79 0)
@@ -6006,9 +5856,6 @@
     (pin "2" (uuid f7830b23-3b4d-499f-b667-115c76127528))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "C5") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "C72") (unit 1)
         )
@@ -6019,7 +5866,7 @@
   (symbol (lib_id "power:+5VP") (at 115.57 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d50b474c-5dd3-443a-99a9-79fa1735b877)
-    (property "Reference" "#PWR016" (at 115.57 176.53 0)
+    (property "Reference" "#PWR0140" (at 115.57 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5VP" (at 115.57 167.64 0)
@@ -6034,9 +5881,6 @@
     (pin "1" (uuid e97cf9e4-372f-43ab-a2b3-354b1816b860))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR016") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR0140") (unit 1)
         )
@@ -6062,9 +5906,6 @@
     (pin "1" (uuid 79251aa2-686e-4fc5-9795-cba913317b73))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR09") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR09") (unit 1)
         )
@@ -6075,7 +5916,7 @@
   (symbol (lib_id "power:+5VP") (at 114.3 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dbdc23e0-0af4-4aeb-883f-134fab14c946)
-    (property "Reference" "#PWR016" (at 114.3 144.78 0)
+    (property "Reference" "#PWR0138" (at 114.3 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5VP" (at 114.3 135.89 0)
@@ -6090,9 +5931,6 @@
     (pin "1" (uuid f4c775ac-b137-44c9-b1b3-4f18d5b1d79f))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR016") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR0138") (unit 1)
         )
@@ -6103,7 +5941,7 @@
   (symbol (lib_id "power:GND1") (at 248.92 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid deeb0a05-ef1d-4cba-922c-92f3e4f30362)
-    (property "Reference" "#PWR018" (at 248.92 142.24 0)
+    (property "Reference" "#PWR028" (at 248.92 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 248.92 140.97 0)
@@ -6118,9 +5956,6 @@
     (pin "1" (uuid 0546502a-e9a9-4475-9054-1a75ae56b636))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR018") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR028") (unit 1)
         )
@@ -6163,7 +5998,7 @@
   (symbol (lib_id "Device:C") (at 41.91 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7687e27-61bb-48b8-ad57-4197e8c7db3d)
-    (property "Reference" "C5" (at 45.72 119.38 0)
+    (property "Reference" "C19" (at 45.72 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 45.72 121.92 0)
@@ -6179,9 +6014,6 @@
     (pin "2" (uuid 5c48d27e-89ba-4538-a987-41acd1f66ea0))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "C5") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "C19") (unit 1)
         )
@@ -6192,7 +6024,7 @@
   (symbol (lib_id "Device:C") (at 111.76 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e79af0aa-fed5-48c4-a104-339739e92eee)
-    (property "Reference" "C5" (at 115.57 49.53 0)
+    (property "Reference" "C13" (at 115.57 49.53 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 115.57 52.07 0)
@@ -6208,9 +6040,6 @@
     (pin "2" (uuid 76823ce6-9674-48c7-bb55-c3c120dce900))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "C5") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "C13") (unit 1)
         )
@@ -6282,7 +6111,7 @@
   (symbol (lib_id "power:GND") (at 29.21 212.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ec704f3f-0677-4d1b-af28-68804178c80c)
-    (property "Reference" "#PWR010" (at 29.21 218.44 0)
+    (property "Reference" "#PWR0152" (at 29.21 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 29.21 217.17 0)
@@ -6297,9 +6126,6 @@
     (pin "1" (uuid d40d392e-013b-4acd-8caa-569caf50771b))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR010") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR0152") (unit 1)
         )
@@ -6310,7 +6136,7 @@
   (symbol (lib_id "power:+5VP") (at 175.26 20.32 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ee6d1a1e-b156-4f21-8e16-f8996be9e44f)
-    (property "Reference" "#PWR016" (at 175.26 24.13 0)
+    (property "Reference" "#PWR021" (at 175.26 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5VP" (at 175.26 15.24 0)
@@ -6325,9 +6151,6 @@
     (pin "1" (uuid 8bd3c496-2f33-4963-8bbd-3ab60573d8bc))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR016") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR021") (unit 1)
         )
@@ -6338,7 +6161,7 @@
   (symbol (lib_id "Device:C") (at 41.91 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0f3f407-e6a2-41e5-8640-51752ca6672f)
-    (property "Reference" "C5" (at 45.72 81.28 0)
+    (property "Reference" "C18" (at 45.72 81.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 45.72 83.82 0)
@@ -6354,9 +6177,6 @@
     (pin "2" (uuid 7a343adc-dfa2-4630-94cb-fbfb335daa46))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "C5") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "C18") (unit 1)
         )
@@ -6399,7 +6219,7 @@
   (symbol (lib_id "power:GND1") (at 163.83 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9d113b6-45d3-463d-ad4f-43c3af22727c)
-    (property "Reference" "#PWR018" (at 163.83 135.89 0)
+    (property "Reference" "#PWR020" (at 163.83 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND1" (at 163.83 134.62 0)
@@ -6414,9 +6234,6 @@
     (pin "1" (uuid 85320872-6356-4aff-94ac-8aacaa05b75b))
     (instances
       (project "FluidNC"
-        (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9"
-          (reference "#PWR018") (unit 1)
-        )
         (path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
           (reference "#PWR020") (unit 1)
         )
