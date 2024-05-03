@@ -589,7 +589,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "V2R1/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -712,10 +712,6 @@
     [
       "2c48d8bb-28b3-408f-91d3-bb9a92045867",
       "Inputs"
-    ],
-    [
-      "05eada58-c6c6-424a-916a-567adb6ee644",
-      "Debug"
     ]
   ],
   "text_variables": {}

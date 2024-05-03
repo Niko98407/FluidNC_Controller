@@ -8318,7 +8318,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D48"
-			(at -3.175 0.044 270)
+			(at -3.175 0.044 -90)
 			(layer "F.SilkS")
 			(uuid "ccc20453-3a7d-4e19-9f8b-d44e8e07d17f")
 			(effects
@@ -8329,7 +8329,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "11f905b1-219a-4538-8a3d-96472b9a2cd2")
 			(effects
@@ -8501,7 +8501,7 @@
 			(uuid "db7d3c08-d04d-4683-b93f-97e1c9e5cb4b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "8575f614-0ed6-4c86-86cd-38122d7e88c6")
 			(effects
@@ -9742,7 +9742,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D47"
-			(at -3.175 0.068 270)
+			(at -3.175 0.068 -90)
 			(layer "F.SilkS")
 			(uuid "82c9a387-b67a-4242-afc9-668f5631cc8a")
 			(effects
@@ -9753,7 +9753,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "28701dcd-bc3c-414a-8a0e-2f5428f973e8")
 			(effects
@@ -9925,7 +9925,7 @@
 			(uuid "a1e39819-2b2b-4471-8971-77b188af2b50")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "1ce1981f-c68c-4db1-b82e-2351cb497956")
 			(effects
@@ -28362,7 +28362,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D42"
-			(at -3.175 -0.012 270)
+			(at -3.175 -0.012 -90)
 			(layer "F.SilkS")
 			(uuid "34fdecc8-5a9e-4353-803a-80d0f5357780")
 			(effects
@@ -28373,7 +28373,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "27d7c4ea-ebf7-4b53-b220-0e4e0d801b29")
 			(effects
@@ -28545,7 +28545,7 @@
 			(uuid "13b945a8-09d7-4c15-aaba-055ad9a8623b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "bc639e1b-2e84-4ac5-acd5-8f344f609480")
 			(effects
@@ -36174,7 +36174,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D41"
-			(at -3.175 0.012 270)
+			(at -3.175 0.012 -90)
 			(layer "F.SilkS")
 			(uuid "19ae1397-e660-42bd-a81d-803342f03c0f")
 			(effects
@@ -36185,7 +36185,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "3628a9b9-0931-4f2e-aeea-6138169c6838")
 			(effects
@@ -36357,7 +36357,7 @@
 			(uuid "41bb0b8e-bfa7-4821-9832-1ee960ea071b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "3442e88b-c028-4d42-bf01-0f223406a517")
 			(effects
@@ -53668,7 +53668,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D49"
-			(at -3.175 0.02 270)
+			(at -3.175 0.02 -90)
 			(layer "F.SilkS")
 			(uuid "c5e6da7f-d21b-4151-adfb-1af4839eacca")
 			(effects
@@ -53679,7 +53679,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "d81f3721-f9e3-4727-8e01-4e4d97e0cbb3")
 			(effects
@@ -53851,7 +53851,7 @@
 			(uuid "6c67e09f-17f0-4196-82ca-d997dbb832b3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "c3212d0b-558f-45b5-9585-c46a09901d99")
 			(effects
@@ -54358,7 +54358,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D46"
-			(at -3.175 -0.008 270)
+			(at -3.175 -0.008 -90)
 			(layer "F.SilkS")
 			(uuid "48d5ca64-51a3-4ef5-b347-8737450cbe75")
 			(effects
@@ -54369,7 +54369,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "cec0e7da-05c5-415e-88a5-d6d3b0e80788")
 			(effects
@@ -54541,7 +54541,7 @@
 			(uuid "c2df75d0-3c72-45e6-9b84-e49d14e9cd97")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "166b5e56-2160-4df8-ab43-b180ab05e41c")
 			(effects
@@ -67531,7 +67531,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D40"
-			(at -3.175 0.036 270)
+			(at -3.175 0.036 -90)
 			(layer "F.SilkS")
 			(uuid "b67dabc1-8645-4f46-a78c-8599134f22c1")
 			(effects
@@ -67542,7 +67542,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "e3fa6a68-4f67-4a0e-8735-5599b430bd89")
 			(effects
@@ -67714,7 +67714,7 @@
 			(uuid "879b33dd-5b90-45e5-a349-b4e0cb4f0db4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "6b024489-f4b9-49c2-bd84-72a19c3a7c38")
 			(effects
@@ -72498,7 +72498,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D44"
-			(at -3.175 0.04 270)
+			(at -3.175 0.04 -90)
 			(layer "F.SilkS")
 			(uuid "5aa69c51-2321-47f6-a3a3-ec49548e17af")
 			(effects
@@ -72509,7 +72509,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "55b949c5-40a3-4de1-9816-c9138c588aa8")
 			(effects
@@ -72681,7 +72681,7 @@
 			(uuid "5313dbf8-f84c-4a0f-ab33-b5b6fb5f1aee")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "d9765d81-0e76-456f-be4a-e6ecf4eab378")
 			(effects
@@ -75318,7 +75318,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D43"
-			(at -3.175 -0.036 270)
+			(at -3.175 -0.036 -90)
 			(layer "F.SilkS")
 			(uuid "a8f2c92a-7699-43cb-b1b2-92abe1bb43a9")
 			(effects
@@ -75329,7 +75329,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "714b2348-d6a1-4138-83c4-190a50d4806e")
 			(effects
@@ -75501,7 +75501,7 @@
 			(uuid "0d506270-8b38-49e1-9592-90d42d69ce05")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "b086844e-e794-41f0-a278-c10670a4a855")
 			(effects
@@ -78170,7 +78170,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D51"
-			(at -3.175 0.072 270)
+			(at -3.175 0.072 -90)
 			(layer "F.SilkS")
 			(uuid "616a0c59-f4ca-44b1-a182-486abe0a91b5")
 			(effects
@@ -78181,7 +78181,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "7cd4883e-04b0-40a1-8c4f-0c4bcc8331cb")
 			(effects
@@ -78353,7 +78353,7 @@
 			(uuid "c5ce60c4-f850-45e1-a23a-b038af6e1ed8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "8acd3c5b-adbc-4114-9bb5-216f7eb20514")
 			(effects
@@ -80067,7 +80067,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D52"
-			(at -3.175 0.013 270)
+			(at -3.175 0.013 -90)
 			(layer "F.SilkS")
 			(uuid "f4e06e43-fd9c-447e-8f74-f27f2789af5c")
 			(effects
@@ -80078,7 +80078,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "79ea9450-50e1-41e2-aa45-c0ea9b508e7d")
 			(effects
@@ -80250,7 +80250,7 @@
 			(uuid "efea3af1-a555-48a8-bdcd-afe09f774102")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "d6c43dc0-2aaa-4080-b4e4-dc715e7b207b")
 			(effects
@@ -81849,7 +81849,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D50"
-			(at -3.175 -0.004 270)
+			(at -3.175 -0.004 -90)
 			(layer "F.SilkS")
 			(uuid "765a890c-a2b0-4920-b6a6-74081c6f553e")
 			(effects
@@ -81860,7 +81860,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "9b91f036-29ba-4254-94e7-8e9d55e7f748")
 			(effects
@@ -82032,7 +82032,7 @@
 			(uuid "45fdaad8-9655-4b3c-921f-deef424b7845")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "6ab5137f-27c0-49d3-beb7-e1da289baae0")
 			(effects
@@ -82523,7 +82523,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D45"
-			(at -3.175 0.016 270)
+			(at -3.175 0.016 -90)
 			(layer "F.SilkS")
 			(uuid "31bc5721-d453-4139-874c-c4685f16d2ac")
 			(effects
@@ -82534,7 +82534,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "da6cfdae-7500-44b6-aab4-65b1f09c1101")
 			(effects
@@ -82706,7 +82706,7 @@
 			(uuid "6029335c-93fa-4e32-8b32-2ad368126c27")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "a1008c6c-26b6-462a-8bd6-aedf958d5e71")
 			(effects
