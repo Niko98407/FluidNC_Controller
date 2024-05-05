@@ -10266,7 +10266,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "ye"
 			(at 95.25 122.2374 90)
 			(effects
 				(font
@@ -11461,7 +11461,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "ye"
 			(at 95.25 43.4974 90)
 			(effects
 				(font
@@ -12522,7 +12522,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "ye"
 			(at 289.56 82.8674 90)
 			(effects
 				(font
@@ -14692,7 +14692,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "ye"
 			(at 289.56 122.2374 90)
 			(effects
 				(font
@@ -15477,7 +15477,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "ye"
 			(at 191.77 161.6074 90)
 			(effects
 				(font
@@ -16178,7 +16178,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "ye"
 			(at 95.25 161.6074 90)
 			(effects
 				(font
@@ -16626,7 +16626,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "ye"
 			(at 191.77 122.2374 90)
 			(effects
 				(font
@@ -16868,7 +16868,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "ye"
 			(at 289.56 43.4974 90)
 			(effects
 				(font
@@ -20666,7 +20666,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "ye"
 			(at 95.25 82.8674 90)
 			(effects
 				(font
@@ -20937,7 +20937,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "ye"
 			(at 191.77 43.4974 90)
 			(effects
 				(font
@@ -21214,7 +21214,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "ye"
 			(at 191.77 82.8674 90)
 			(effects
 				(font

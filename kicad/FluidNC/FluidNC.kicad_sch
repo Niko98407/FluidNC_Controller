@@ -7905,7 +7905,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "gn"
 			(at 271.78 24.13 0)
 			(effects
 				(font
@@ -9174,7 +9174,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "gn"
 			(at 256.54 123.19 0)
 			(effects
 				(font
@@ -11388,7 +11388,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "bl"
 			(at 114.3 100.33 0)
 			(effects
 				(font
@@ -11455,7 +11455,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "bl"
 			(at 114.3 88.9 0)
 			(effects
 				(font
