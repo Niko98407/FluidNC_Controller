@@ -35028,7 +35028,7 @@
 		(descr "16-lead though-hole mounted DIP package, row spacing 8.89 mm (350 mils), SMDSocket, LongPads")
 		(tags "THT DIP DIL PDIP 2.54mm 8.89mm 350mil SMDSocket LongPads")
 		(property "Reference" "U25"
-			(at 0.254 -8.934 90)
+			(at -0.005 11.41 90)
 			(layer "F.SilkS")
 			(uuid "b1f6d48e-dbc0-4622-8bfd-7a8b61a7efb1")
 			(effects
@@ -87880,7 +87880,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "FluidNC Controller V2 R1\nNikos Gioulekas\n05/2024"
+	(gr_text "FluidNC Controller V2 R2\nNikos Gioulekas\n05/2024"
 		(at 158.7 39.8 0)
 		(layer "F.SilkS")
 		(uuid "28c8814e-c118-4773-8b44-d039d7b9e3e3")
