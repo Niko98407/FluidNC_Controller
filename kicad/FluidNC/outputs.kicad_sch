@@ -2492,168 +2492,6 @@
 				)
 			)
 		)
-		(symbol "Diode:1N4148WS"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148WS"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-323"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "75V 0.15A Fast switching Diode, SOD-323"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?323*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4148WS_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4148WS_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "GioN_Custom:ISO1H811G"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5894,7 +5732,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 25.4) (xy 217.17 25.4)
+			(xy 212.09 25.4) (xy 226.06 25.4)
 		)
 		(stroke
 			(width 0)
@@ -6231,16 +6069,6 @@
 			(type default)
 		)
 		(uuid "1beed0d0-fab9-47ab-820a-af0e1ddf22c0")
-	)
-	(wire
-		(pts
-			(xy 224.79 25.4) (xy 226.06 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bfe6bc0-7be6-4dfc-ae03-7aa35fb8b134")
 	)
 	(wire
 		(pts
@@ -9444,16 +9272,6 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 60.96) (xy 226.06 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92e0b4e6-a4e0-4522-98ae-27a8d2c8860c")
-	)
-	(wire
-		(pts
 			(xy 266.7 187.96) (xy 266.7 189.23)
 		)
 		(stroke
@@ -12104,7 +11922,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 60.96) (xy 217.17 60.96)
+			(xy 213.36 60.96) (xy 226.06 60.96)
 		)
 		(stroke
 			(width 0)
@@ -17053,92 +16871,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 220.98 60.96 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d34830f-a911-4ecd-96f1-27aa1d5b0def")
-		(property "Reference" "D10"
-			(at 220.98 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 220.98 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 220.98 56.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 220.98 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 220.98 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 220.98 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 220.98 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5446033a-fd96-46af-af7d-fed79fdb3ac5")
-		)
-		(pin "1"
-			(uuid "7e482632-295e-4cea-b577-c4a37bc76378")
-		)
-		(instances
-			(project "FluidNC"
-				(path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 109.22 262.89 0)
 		(unit 1)
@@ -17770,7 +17502,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "10k"
 			(at 231.14 22.86 90)
 			(effects
 				(font
@@ -18182,7 +17914,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5k1"
 			(at 215.9 67.31 0)
 			(effects
 				(font
@@ -19879,7 +19611,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "5k1"
 			(at 214.63 31.75 0)
 			(effects
 				(font
@@ -21005,92 +20737,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WS")
-		(at 220.98 25.4 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86dbdc55-b852-4b75-a07a-b2626ff73636")
-		(property "Reference" "D9"
-			(at 220.98 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WS"
-			(at 220.98 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 220.98 20.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85751/1n4148ws.pdf"
-			(at 220.98 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 220.98 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 220.98 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 220.98 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d490bce1-c7c5-4cd5-a254-540579b67501")
-		)
-		(pin "1"
-			(uuid "f481ed76-bd54-4f35-8b9b-ecb4f0dd7e74")
-		)
-		(instances
-			(project "FluidNC"
-				(path "/e3fd5c1c-6c47-4c53-8f48-29ce6734bbe9/19e27c1a-a8c5-4111-ac88-1c42761b7965"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 213.36 201.93 0)
 		(unit 1)
@@ -21327,7 +20973,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c9f1279-49e3-4227-8e86-1c402c07858a")
 		(property "Reference" "C24"
-			(at 240.03 71.12 0)
+			(at 240.03 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21335,8 +20981,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 240.03 73.66 0)
+		(property "Value" "100n"
+			(at 240.03 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22678,7 +22324,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "10k"
 			(at 231.14 58.42 90)
 			(effects
 				(font
@@ -23273,7 +22919,7 @@
 		(fields_autoplaced yes)
 		(uuid "b761f33d-fa1f-41aa-8204-9ce3977983c5")
 		(property "Reference" "C23"
-			(at 240.03 35.56 0)
+			(at 240.03 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23281,8 +22927,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 240.03 38.1 0)
+		(property "Value" "100n"
+			(at 240.03 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
