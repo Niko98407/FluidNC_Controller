@@ -8443,7 +8443,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
 			(at 48.26 17.145 0)
 			(effects
 				(font
@@ -10733,7 +10733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_7.3x7.3_H3.5"
+		(property "Footprint" "Inductor_SMD:L_6.3x6.3_H3"
 			(at 224.79 133.35 0)
 			(effects
 				(font
@@ -11110,7 +11110,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba896db2-c2de-4d04-a0a0-3d21a3d843f4")
 		(property "Reference" "D5"
-			(at 220.98 138.1125 90)
+			(at 220.98 138.1124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11118,8 +11118,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Schottky"
-			(at 220.98 140.6525 90)
+		(property "Value" "SS34"
+			(at 220.98 140.6524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11127,7 +11127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 218.44 139.7 0)
 			(effects
 				(font
